@@ -1,0 +1,22 @@
+<!-- JS Vendor, Plugins & Activation Script Files -->
+
+<!-- Vendors JS -->
+<script src="@@webRoot/assets/js/vendor/modernizr-3.11.7.min.js"></script>
+<script src="@@webRoot/assets/js/vendor/jquery-3.6.0.min.js"></script>
+<script src="@@webRoot/assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
+<script src="@@webRoot/assets/js/plugins/flickity.pkgd.js"></script>
+<script src="https://iprodev.github.io/Scrollax.js/assets/js/smoothscroll.js"></script>
+<script src="https://iprodev.github.io/Scrollax.js/lib/scrollax.min.js"></script>
+    
+
+<!-- Plugins JS -->
+@@for (var i = 0; i < plugins.length; i++) {<script src="@@webRoot/assets/js/plugins/`+plugins[i]+`.js"></script>}
+
+<script>
+    $('.mobile-href').click(() => {
+        $('.offcanvas-close').trigger('click')
+    })
+</script>
+
+<!-- Activation JS -->
+<script src="@@webRoot/assets/js/main.js"></script>

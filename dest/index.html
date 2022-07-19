@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html class="no-js overflow-x-hidden" style="overflow-x: hidden" lang="en">
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.13/howler.min.js"></script>
+<script src="assets/js/tinyPlayer.min.js"></script>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Sinp- Single Product Ecommerce HTML Template</title>
+    <!-- <meta name="robots" content="noindex, follow" /> -->
+    <meta name="AdsBot-Google" content="noindex follow" />
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/images/favicon.webp" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/3.0.0/flickity.css">
+
+
+    <!-- CSS (Font, Vendor, Icon, Plugins & Style CSS files) -->
+
+    <link rel="stylesheet" href="./assets/css/vendor/icofont.min.css" />
+    <link rel="stylesheet" href="./assets/css/vendor/line-awesome.min.css" />
+    <link rel="stylesheet" href="./assets/css/vendor/simple-line-icons.css" />
+    <!-- Font CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="http://fonts.cdnfonts.com/css/acumin-pro" />
+    <link rel="stylesheet" href="http://fonts.cdnfonts.com/css/kalam" />
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="assets/css/tinyPlayer.min.css" rel="stylesheet" type="text/css">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
+
+    <!-- Vendor CSS (Bootstrap & Icon Font) -->
+
+    <!-- Plugins CSS (All Plugins Files) -->
+
+    <link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="assets/css/plugins/magnific-popup.css" />
+
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="assets/css/plugins/custom.css" />
+
+
+</head>
+
+
+<body class="font-poppins text-dark text-sm leading-loose overflow-x-hidden">
+    <!-- Header start -->
+
+    <header id="sticky-header" class="bg-[#e4dcca] z-50">
+        <div class="px-4 md:px-10 2xl:px-24 py-6 lg:py-0">
+            <div class="flex items-center lg:relative">
+                <div class="hidden lg:flex flex-1 xl:relative">
+                    <nav class="main-menu">
+                        <ul class="flex flex-wrap">
+                            <li class="main-menu__item relative">
+                                <a class="block py-10 xl:pr-6 md:pr-5 uppercase font-normal text-sm text-black hover:text-orange transition-all" href="#program">The program</a>
+                            </li>
+
+                            <li class="main-menu__item">
+                                <a class="block py-10 xl:px-6 md:px-5 uppercase font-normal text-sm text-black hover:text-orange transition-all" href="#testimonial">Testimonials</a>
+                            </li>
+
+                            <li class="main-menu__item"><a class="block py-10 xl:px-6 md:px-5 uppercase font-normal text-sm text-black hover:text-orange transition-all" href="#faq">faq</a></li>
+                        </ul>
+                    </nav>
+
+                </div>
+                <div class="w-auto lg:w-2/12 lg:absolute left-2/4 lg:-translate-x-2/4">
+                    <div class="logo"><a href="index.html"><img src="assets/images/logo/Voyage.svg" class="m-auto" alt="logo" loading="lazy" width="99" height="18" /></a></div>
+                </div>
+                <div class="w-full lg:w-3/12">
+                    <ul class="flex items-center justify-end">
+                        <li class="ml-6 hidden lg:block">
+                            <button class="text-right text-black text-md hover:text-orange transition-all" aria-label="icon-social-twitter">
+                                <i class="icon-social-twitter"></i>
+                            </button>
+                        </li>
+                        <li class="ml-6 hidden lg:block">
+                            <button class="text-black text-md hover:text-orange transition-all" aria-label="icon-social-instagram">
+                                <i class="icon-social-instagram"></i>
+                            </button>
+                        </li>
+                        <li class="ml-6 hidden lg:block">
+                            <a class="flex flex-wrap items-center hover:bg-primary transition-all bg-yellow text-black ml-4 px-8 py-3 rounded-full uppercase font-acumin text-sm leading-none" href="#">sign up</a>
+                        </li>
+
+                        <li class="ml-6 lg:hidden">
+                            <a href="#offcanvas-mobile-menu" class="offcanvas-toggle text-dark text-md hover:text-orange transition-all"><i class="icon-menu"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- Header end -->
+    <!-- offcanvas-overlay start -->
+    <div class="offcanvas-overlay hidden fixed inset-0 bg-black opacity-50 z-50"></div>
+    <!-- offcanvas-overlay end -->
+    <!-- offcanvas-mobile-menu start -->
+    <div id="offcanvas-mobile-menu" class="offcanvas left-auto right-0 z-50 transform translate-x-translate-x-full-120 fixed text-white top-0 z-50 h-screen w-full transition-all ease-in-out duration-300 bg-[#242E22]  overflow-y-auto flex flex-col justify-between">
+
+
+        <!-- close button start -->
+        <div>
+            <button class="offcanvas-close group transition-all right-[22px] top-[20px] text-white flex items-center justify-center absolute top-0" aria-label="offcanvas"><img src="assets/images/mobile-menu-close.svg" class="transition-all transform hover:rotate-90" alt=""></button>
+            <!-- close button end -->
+            <img src="assets/images/Voyage-white.svg" class="my-[24px] mx-[16px]" alt="logo" loading="lazy" width="99" height="18">
+
+        </div>
+        <!-- offcanvas-menu start -->
+        <ul class="">
+            <li class="group mobile-href text-center relative py-[4px]">
+                <a href="#program" class="uppercase text-white letter-scale-3 font-playfair text-6md  underline">The program </a>
+            </li>
+            <li class="group mobile-href text-center relative py-[4px]">
+                <a href="#testimonial" class="uppercase text-white letter-scale-3 font-playfair text-6md underline"> Testimonials</a>
+            </li>
+            <li class="group mobile-href text-center relative py-[4px]">
+                <a href="#faq" class="uppercase text-white letter-scale-3 font-playfair text-6md underline">Faq</a>
+            </li>
+        </ul>
+        <div class="text-center">
+            <div class="flex justify-center">
+                <a href="" class="py-3 px-3 ">
+                    <i class="text-7md icon-social-twitter"></i>
+                </a>
+                <a href="" class="py-3 px-3">
+                    <i class="text-7md icon-social-instagram"></i>
+                </a>
+            </div>
+            <div>
+                <p class="rounded-full bg-yellow :hover-bg-yellow-hover py-3 px-6 uppercase font-sm w-[288px] my-[56px] mx-auto text-black duration-300 ease-in-out">Sign Up</p>
+            </div>
+        </div>
+        <!-- offcanvas-menu end -->
+
+    </div>
+    <!-- offcanvas-mobile-menu end -->
+
+    <!-- Feartured section start -->
+
+    <section class="bg-primary overflow-hidden">
+
+        <div class="container relative">
+            <div class="w-full relative lg:absolute top-[60px] lg:top-[100px] z-20">
+                <h2 class="font-playfair uppercase text-black text-2lg lg:text-xl xl:text-3xl leading-tight mb-5 max-w-sm">
+                    Your <span class="font-kalam font-bold mr-4">story</span>is powerful</h2>
+                <p class="font-normal font-acumin text-black text-base lg:text-md xl:text-md leading-normal max-w-[544px]">
+                    Over the past decade, we’ve developed the tools, knowledge, and network needed to help 100s of
+                    members harness the power of storytelling to achieve massive growth through our Content Partners
+                    Program.
+                </p>
+                <a href="#" class="transition-all bg-yellow hover:bg-primary px-5 md:px-12 py-3 md:py-4 xl:py-4 rounded-full text-black uppercase font-medium text-sm inline-block mt-5 leading-none">Unlock
+                    your potential</a>
+            </div>
+
+            <div class="w-full relative max-h-[600px] lg:max-h-[1000px] translate-x-0 lg:translate-x-1/4">
+                <div class="hero-fadein ">
+                    <img id="h-f3" class=" w-full h-full" src="assets/images/Taylor-Swift-PNG-HD1.svg" alt="hero image" loading="lazy" width="570" height="602" />
+                    <img id="h-f2" class=" w-full h-full object-cover md:object-fill lg:object-fill xl:object-fill" src="assets/images/subscription/Abel-Makkonen-Tesfaye-PNG-Image.svg" alt="hero image" loading="lazy" width="570" height="602" />
+                    <img id="h-f1" class=" w-full h-full  object-cover object-left  xl:object-fill" src="assets/images/subscription/Lady-Gaga-Free-Download-PNG1.svg" alt="hero image" loading="lazy" width="570" height="602" />
+                    <!-- <img id="h-f1" class=" w-full h-full max-w-[400px] lg:max-w-[450px] xl:max-w-[600px] w-full h-full absolute z-10 top-[80px] lg:top-2/4 left-0 lg:left-2/4 md:translate-x-1/2 translate-y-0 translate-x-0 lg:-translate-x-2/4 lg:-translate-y-2/4"
+                    src="assets/images/subscription/Lady-Gaga-Free-Download-PNG (1).svg" alt="hero image" loading="lazy" width="570"
+                    height="602" /> -->
+                </div>
+                <!-- max-w-[400px] lg:max-w-[450px] xl:max-w-[600px] w-full h-full absolute z-10 top-[80px] lg:top-2/4 left-0 lg:left-2/4 md:translate-x-1/2 translate-y-0 translate-x-0 lg:-translate-x-2/4 lg:-translate-y-2/4 -->
+                <div class="bg-[url('../images/Vector-mask-green-4.svg')] bg-cover bg-top relative top-0 xl:w-[1320px] xl:h-[820px] xl:-left-[88px] lg:w-[971px] lg:h-[699px] lg:-left-[27px] w-[915px] h-[731px] -left-[230px] md:-left-[90px]"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Review section start -->
+    <section class="review-section py-[120px] bg-yellow">
+        <!-- <div class="container"> -->
+        <div class="container">
+            <p class="font-playfair uppercase text-black text-2lg lg:text-xl xl:text-3xl  leading-tight mb-5">Reviews</p>
+        </div>
+        <div class="grid">
+            <div class="carousel pl-[20px] lg:pl-[25px] xl:pl-[30px]" data-flickity>
+                <div class="carousel-cell container">
+                    <div class="flex flex-wrap component-reverse">
+                        <div class="w-full lg:w-1/2">
+                            <div class="flex mt-12">
+                                <img src="assets/images/star-black.svg" class="mr-1" alt="">
+                                <img src="assets/images/star-black.svg" class="mr-1" alt="">
+                                <img src="assets/images/star-black.svg" class="mr-1" alt="">
+                                <img src="assets/images/star-black.svg" class="mr-1" alt="">
+                                <img src="assets/images/star-black.svg" class="mr-1" alt="">
+                                <img src="assets/images/star-white.svg" alt="">
+                            </div>
+                            <p class="font-playfair text-black text-3md lg:text-5md xl:text-7md  mt-10">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut labore et dolore magna aliqua.”</p>
+                            <p class="text-2sm font-acumin uppercase mt-12">FIRSTNAME LASTNAME</p>
+                        </div>
+                        <div class="w-full lg:w-1/2 pr-14">
+                            <img class="image-mask1 m-auto" src="assets/images/hero11.svg">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell container">
+                    <div class="flex flex-wrap component-reverse">
+                        <div class="w-full lg:w-1/2">
+                            <div class="flex mt-12">
+                                <img src="assets/images/star-black.svg" class="mr-1" alt="">
+                                <img src="assets/images/star-black.svg" class="mr-1" alt="">
+                                <img src="assets/images/star-black.svg" class="mr-1" alt="">
+                                <img src="assets/images/star-black.svg" class="mr-1" alt="">
+                                <img src="assets/images/star-black.svg" class="mr-1" alt="">
+                                <img src="assets/images/star-white.svg" alt="">
+                            </div>
+                            <p class="font-playfair text-black text-3md lg:text-5md xl:text-7md  mt-10">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut labore et dolore magna aliqua.”</p>
+                            <p class="text-2sm font-acumin uppercase mt-12">FIRSTNAME LASTNAME</p>
+                        </div>
+                        <div class="w-full lg:w-1/2 pr-14">
+                            <img class="image-mask1 m-auto" src="assets/images/hero11.svg">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell container">
+                    <div class="flex flex-wrap component-reverse">
+                        <div class="w-full lg:w-1/2">
+                            <div class="flex mt-12">
+                                <img src="assets/images/star-black.svg" class="mr-1" alt="">
+                                <img src="assets/images/star-black.svg" class="mr-1" alt="">
+                                <img src="assets/images/star-black.svg" class="mr-1" alt="">
+                                <img src="assets/images/star-black.svg" class="mr-1" alt="">
+                                <img src="assets/images/star-black.svg" class="mr-1" alt="">
+                                <img src="assets/images/star-white.svg" alt="">
+                            </div>
+                            <p class="font-playfair text-black text-3md lg:text-5md xl:text-7md  mt-10">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut labore et dolore magna aliqua.”</p>
+                            <p class="text-2sm font-acumin uppercase mt-12">FIRSTNAME LASTNAME</p>
+                        </div>
+                        <div class="w-full lg:w-1/2 pr-14">
+                            <img class="image-mask1 m-auto" src="assets/images/hero11.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- </div> -->
+        <!-- </div> -->
+    </section>
+    <!-- Review section end -->
+
+
+
+
+    <!-- A program section start -->
+
+    <section id="program" class="product-banner-section bg-lime py-[160px]">
+
+        <div class="container">
+            <div class="lg:pb-[56px] xl:pb-[124px]">
+                <h3 class="mx-auto text-left lg:text-center uppercase font-playfair text-black text-3lg lg:text-4xl xl:text-5xl  mb-8 leading-none xl:w-[1078px] ">A program <span class="font-kalam font-bold">tailored</span> to your needs</h3>
+                <p class="text-left lg:text-center font-acumin text-black text-base lg:text-md xl:text-md leading-normal max-w-3lg lg:max-w-[674px] xl:max-w-[684px] mx-auto">
+                    A brand strategist will work with you to learn your story, what has and hasn’t worked for you,
+                    and what makes your story and brand most compelling in order to map out an execution strategy to
+                    significantly level up your brand. Below, you’ll find some of the options available to members.
+                </p>
+            </div>
+
+            <div class="flex flex-wrap component-reverse">
+                <div class="px-[20px] lg:w-1/2 xl:w-1/2">
+                    <div class="text-black">
+                        <h2 class="text-6md lg:text-lg text-black xl:text-3lg md:mt-[32px] sm:mt-[32px] xs:mt-[32px] mb-6 uppercase leading-none font-playfair">podcasts</h2>
+                        <p class="font-acumin text-base lg:text-md xl:text-md leading-normal max-w-md lg:max-w-[478px] xl:max-w-[588px]">
+                            Podcasts can improve conversion rates. For folks who are already considering working with you,
+                            hearing an in-depth conversation about what sets you apart from the competition can be the
+                            deciding factor for many potential clients.
+                        </p>
+                        <div class="mt-10 -mb-10">
+                            <div class="flex flex-wrap mb-10 items-center">
+                                <div class="flex-1">
+                                    <h3 class="text-black font-playfair text-md lg:text-2md xl:text-4md capitalize mb-3">
+                                        client examples
+                                    </h3>
+
+                                    <div class="faq-accordion mt-[22px] lg:mt-[19px] xl:mt-[16px]  mx-auto">
+                                        <div class="faq py-4 border-t-2 border-solid border-[#00000033]">
+                                            <button class="text-md lg:text-2md xl:text-4md flex flex-wrap items-center text-playfair relative w-full transition-all text-left" aria-label="button">
+                                                <img src="assets/images/avatar1.svg" class="rounded-lg" alt="">
+                                                <p class="font-acumin text-3sm ml-[13px] font-bold">Jennifer Myers</p>
+                                                <span class="plusminus absolute top-0 right-0 text-7md">-</span>
+                                            </button>
+                                            <div class="faq-content text-4sm overflow-hidden font-acumin pt-[16px] lg:pt-[24px] xl:pt-[24px] text-left max-w-3xl lg:max-w-[530px] xl:max-w-[543px]">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            </div>
+                                            <div class="py-[20px]">
+                                                <audio controls class="iru-tiny-player" data-title="Title of podcast">
+                                                    <source src=" https://metroui.org.ua/res/hotel_california.mp3" type="audio/mpeg">
+                                                </audio>
+                                            </div>
+                                        </div>
+                                        <div class="faq py-4 border-t-2 border-solid border-[#00000033]">
+                                            <button class="text-md lg:text-2md xl:text-4md  text- flex flex-wrap items-center  text-playfair relative w-full transition-all text-left" aria-label="button">
+                                                <img src="assets/images/avatar2.svg" class="rounded-lg" alt="">
+                                                <p class="font-acumin text-3sm ml-[13px] font-bold">Jennifer Myers</p>
+                                                <span class="plusminus absolute top-0 right-0 text-7md">+</span>
+                                            </button>
+                                            <div class="faq-content text-4sm overflow-hidden font-acumin pt-[16px] lg:pt-[24px] xl:pt-[24px] text-left hidden max-w-3xl lg:max-w-[530px] xl:max-w-[543px]">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            </div>
+                                        </div>
+                                        <div class="faq py-4 border-t-2 border-solid border-[#00000033]">
+                                            <button class="text-md lg:text-2md xl:text-4md  text- flex flex-wrap items-center  text-playfair relative w-full transition-all text-left" aria-label="button">
+                                                <img src="assets/images/avatar3.svg" class="rounded-lg" alt="">
+                                                <p class="font-acumin text-3sm ml-[13px] font-bold">Jennifer Myers</p>
+                                                <span class="plusminus absolute top-0 right-0 text-7md">+</span>
+                                            </button>
+                                            <div class="faq-content text-4sm overflow-hidden font-acumin pt-[16px] lg:pt-[24px] xl:pt-[24px] text-left hidden max-w-3xl lg:max-w-[530px] xl:max-w-[543px]">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                <div class="py-[20px]">
+                                                    </audio>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-[20px] lg:w-1/2 xl:w-1/2 mt-[48px] lg:mt-[0] xl:mt-[0]">
+
+                    <div class="transform xl:translate-x-[150px] xl:scale-105">
+                        <img class="mt-8 md:mt-0 max-w-xs sm:max-w-sm md:max-w-lg lg:max-w-full rounded-2xl" src="assets/images/convertkit-BOI9jki3nzY-unsplash1.svg" alt="recording image" />
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-wrap lg:mt-[40px] lg:mt-[114px] xl:mt-[140px]">
+                <div class="px-[20px] lg:w-1/2 xl:w-1/2 mt-[48px] lg:mt-[0] xl:mt-[0]">
+                    <div class="transform xl:translate-x-[-70px] xl:scale-105">
+                        <!-- <iframe
+                                class=" w-full h-full mt-8 md:mt-0 max-w-xs sm:max-w-sm md:max-w-lg lg:max-w-full rounded-2xl"
+                                src="https://sp2cdn-idea-global.zingfront.com/sp_opera/ac33e3c80930a68d61668014debafdd2.mp4"
+                                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen
+                            ></iframe> -->
+                        <video class=" w-full h-full mt-8 md:mt-0 max-w-xs sm:max-w-sm md:max-w-lg lg:max-w-full rounded-2xl" controls>
+                            <source src="https://sp2cdn-idea-global.zingfront.com/sp_opera/ac33e3c80930a68d61668014debafdd2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+                <div class="px-[20px] lg:w-1/2 xl:w-1/2">
+                    <div class="text-black">
+                        <h2 class="text-6md lg:text-lg text-black xl:text-3lg md:mt-[32px] sm:mt-[32px] xs:mt-[32px] mb-6 uppercase leading-none font-playfair">TikTok Trends & IG Reels</h2>
+                        <p class="font-acumin text-base lg:text-md xl:text-md leading-normal max-w-md lg:max-w-[478px] xl:max-w-[588px]">
+                            TikTok and Instagram Reels are one of the most effective ways to gain exposure to new prospective clients and fans as well as stay top of mind with your current followers. Our TikTok & Reels strategist will work with you to develop a winning strategy and our video editors will help make the production process easier than ever – saving you time and money.
+                        </p>
+                        <div class="mt-10 -mb-10">
+                            <div class="flex flex-wrap mb-10 items-center">
+                                <div class="flex-1">
+                                    <h3 class="text-black font-playfair text-md lg:text-2md xl:text-4md capitalize mb-3">
+                                        client examples
+                                    </h3>
+
+                                    <div class="faq-accordion mt-[22px] lg:mt-[19px] xl:mt-[16px]  mx-auto">
+                                        <div class="faq py-4 border-t-2 border-solid border-[#00000033]">
+                                            <button class="text-md lg:text-2md xl:text-4md  text- flex flex-wrap items-center  text-playfair relative w-full transition-all text-left" aria-label="button">
+                                                <img src="assets/images/avatar4.svg" class="rounded-lg" alt="">
+                                                <p class="font-acumin text-3sm ml-[13px] font-bold">Jackie Morrison</p>
+                                                <span class="plusminus absolute top-0 right-0 text-7md">+</span>
+                                            </button>
+                                            <div class="faq-content text-4sm overflow-hidden font-acumin pt-[16px] lg:pt-[24px] xl:pt-[24px] text-left hidden max-w-3xl lg:max-w-[530px] xl:max-w-[543px]">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            </div>
+                                        </div>
+                                        <div class="faq py-4 border-t-2 border-solid border-[#00000033]">
+                                            <button class="text-md lg:text-2md xl:text-4md  text- flex flex-wrap items-center  text-playfair relative w-full transition-all text-left" aria-label="button">
+                                                <img src="assets/images/avatar5.svg" class="rounded-lg" alt="">
+                                                <p class="font-acumin text-3sm ml-[13px] font-bold">Lucy Olsen</p>
+                                                <span class="plusminus absolute top-0 right-0 text-7md">+</span>
+                                            </button>
+                                            <div class="faq-content text-4sm overflow-hidden font-acumin pt-[16px] lg:pt-[24px] xl:pt-[24px] text-left hidden max-w-3xl lg:max-w-[530px] xl:max-w-[543px]">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-wrap component-reverse lg:mt-[40px] lg:mt-[114px] xl:mt-[140px]">
+                <div class="px-[20px] lg:w-1/2 xl:w-1/2">
+                    <div class="text-black">
+                        <h2 class="text-6md lg:text-lg text-black xl:text-3lg md:mt-[32px] sm:mt-[32px] xs:mt-[32px] mb-6 uppercase leading-none font-playfair">TBD</h2>
+                        <p class="font-acumin text-base lg:text-md xl:text-md leading-normal max-w-md lg:max-w-[478px] xl:max-w-[588px]">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing.
+                        </p>
+                        <div class="mt-10 -mb-10">
+                            <div class="flex flex-wrap mb-10 items-center">
+                                <div class="flex-1">
+                                    <h3 class="text-black font-playfair text-md lg:text-2md xl:text-4md capitalize mb-3">
+                                        client examples
+                                    </h3>
+
+                                    <div class="faq-accordion mt-[22px] lg:mt-[19px] xl:mt-[16px]  mx-auto">
+                                        <div class="faq py-4 border-t-2 border-solid border-[#00000033]">
+                                            <button class="text-md lg:text-2md xl:text-4md  text- flex flex-wrap items-center  text-playfair relative w-full transition-all text-left" aria-label="button">
+                                                <img src="assets/images/avatar6.svg" class="rounded-lg" alt="">
+                                                <p class="font-acumin text-3sm ml-[13px] font-bold">Corey Marshall</p>
+                                                <span class="plusminus absolute top-0 right-0 text-7md">-</span>
+                                            </button>
+                                            <div class="faq-content text-4sm overflow-hidden font-acumin pt-[16px] lg:pt-[24px] xl:pt-[24px] text-left max-w-3xl lg:max-w-[530px] xl:max-w-[543px]">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            </div>
+                                        </div>
+                                        <div class="faq py-4 border-t-2 border-solid border-[#00000033]">
+                                            <button class="text-md lg:text-2md xl:text-4md  text- flex flex-wrap items-center  text-playfair relative w-full transition-all text-left" aria-label="button">
+                                                <img src="assets/images/avatar5.svg" class="rounded-lg" alt="">
+                                                <p class="font-acumin text-3sm ml-[13px] font-bold">Corey Nelson</p>
+                                                <span class="plusminus absolute top-0 right-0 text-7md">+</span>
+                                            </button>
+                                            <div class="faq-content text-4sm overflow-hidden font-acumin pt-[16px] lg:pt-[24px] xl:pt-[24px] text-left hidden max-w-3xl lg:max-w-[530px] xl:max-w-[543px]">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            </div>
+                                        </div>
+                                        <div class="faq py-4 border-t-2 border-solid border-[#00000033]">
+                                            <button class="text-md lg:text-2md xl:text-4md  text- flex flex-wrap items-center  text-playfair relative w-full transition-all text-left" aria-label="button">
+                                                <img src="assets/images/avatar7.svg" class="rounded-lg" alt="">
+                                                <p class="font-acumin text-3sm ml-[13px] font-bold">Marcus Baldwin</p>
+                                                <span class="plusminus absolute top-0 right-0 text-7md">+</span>
+                                            </button>
+                                            <div class="faq-content text-4sm overflow-hidden font-acumin pt-[16px] lg:pt-[24px] xl:pt-[24px] text-left hidden max-w-3xl lg:max-w-[530px] xl:max-w-[543px]">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-[20px] lg:w-1/2 xl:w-1/2 mt-[48px] lg:mt-[0] xl:mt-[0]">
+
+                    <div class="transform xl:translate-x-[150px] xl:scale-105">
+                        <img class="mt-8 md:mt-0 max-w-xs sm:max-w-sm md:max-w-lg lg:max-w-full rounded-2xl" src="assets/images/dom-aguiar-QBAZAvzvyzM-unsplash 1.svg" alt="recording image" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-[45px] lg:mt-[160px] xl:mt-[164px]">
+                <p class="text-6md lg:text-lg xl:text-3lg font-playfair uppercase ml-6">More opportunities</p>
+                <div class="-mx-4 flex flex-wrap mt-12">
+                    <div class="w-full px-11 lg:w-1/2 xl:w-1/2">
+                        <p class="font-playfair text-3md lg:text-5md xl:text-7md mt-[32px] lg:mt-[54px] xl:mt-[72px]">Photoshoots</p>
+                        <div>
+                            <input type="checkbox" class="read-more-state" id="readmore1" />
+                            <p class="read-more-wrap font-acumin  text-base lg:text-md xl:text-md my-[16px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.<span class="read-more-target font-acumin">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                      </span></p>
+
+                            <label for="readmore1" class="read-more-trigger"></label>
+                        </div>
+                    </div>
+                    <div class="w-full px-11 lg:w-1/2 xl:w-1/2">
+                        <p class="font-playfair text-3md lg:text-5md xl:text-7md mt-[32px] lg:mt-[54px] xl:mt-[72px]">Client Testimonials</p>
+                        <div>
+                            <input type="checkbox" class="read-more-state" id="readmore2" />
+                            <p class="read-more-wrap font-acumin  text-base lg:text-md xl:text-md my-[16px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.<span class="read-more-target font-acumin">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                      </span></p>
+
+                            <label for="readmore2" class="read-more-trigger"></label>
+                        </div>
+                    </div>
+                    <div class="w-full px-11 lg:w-1/2 xl:w-1/2">
+                        <p class="font-playfair text-3md lg:text-5md xl:text-7md mt-[32px] lg:mt-[54px] xl:mt-[72px]">Launch your own show</p>
+                        <div>
+                            <input type="checkbox" class="read-more-state" id="readmore3" />
+                            <p class="read-more-wrap font-acumin  text-base lg:text-md xl:text-md my-[16px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.<span class="read-more-target font-acumin">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                      </span></p>
+
+                            <label for="readmore3" class="read-more-trigger"></label>
+                        </div>
+                    </div>
+                    <div class="w-full px-11 lg:w-1/2 xl:w-1/2">
+                        <p class="font-playfair text-3md lg:text-5md xl:text-7md mt-[32px] lg:mt-[54px] xl:mt-[72px]">Expert panels</p>
+                        <div>
+                            <input type="checkbox" class="read-more-state" id="readmore4" />
+                            <p class="read-more-wrap font-acumin  text-base lg:text-md xl:text-md my-[16px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.<span class="read-more-target font-acumin">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                      </span></p>
+
+                            <label for="readmore4" class="read-more-trigger"></label>
+                        </div>
+                    </div>
+                    <div class="w-full px-11 lg:w-1/2 xl:w-1/2">
+                        <p class="font-playfair text-3md lg:text-5md xl:text-7md mt-[32px] lg:mt-[54px] xl:mt-[72px]">Sponsored Shoutouts
+                        </p>
+                        <div>
+                            <input type="checkbox" class="read-more-state" id="readmore5" />
+                            <p class="read-more-wrap font-acumin  text-base lg:text-md xl:text-md my-[16px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.<span class="read-more-target font-acumin">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                      </span></p>
+
+                            <label for="readmore5" class="read-more-trigger"></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+    </section>
+
+    <!-- A program section end -->
+
+
+    <!-- Client Success section start -->
+    <section id="testimonial" class="product-banner-section bg-green-light py-[80px] lg:py-[120px] xl:py-[160px] ">
+        <div class="container">
+            <div class="pb-[56px] lg:pb-[80px] xl:pb-[160px]">
+                <p class="mx-auto text-left lg:text-center uppercase font-playfair text-black text-3lg lg:text-4xl xl:text-5xl mb-8 leading-none max-w-lg lg:max-w-3xl xl:max-w-5xl">Client success
+                    <span class="mx-auto text-left lg:text-center uppercase font-kalam text-black text-3lg lg:text-4xl xl:text-5xl mb-8 leading-none max-w-lg lg:max-w-3xl xl:max-w-5xl lg:mb-[80px] xl:mb-[160px] font-bold"> stories </span>
+                </p>
+            </div>
+
+            <!-- small than xl screen response -->
+            <div class="xl:hidden">
+                <div class="lg:grid lg:grid-cols-2 gap-x-4 relative">
+                    <div class="px-4">
+                        <p class="font-playfair text-2sm uppercase">Success Stories</p>
+                        <p class="font-playfair text-2lg lg:text-xl xl:text-3xl  uppercase my-[8px] lg:my-[24px]">Sarah’s Story</p>
+                        <p class="text-base lg:text-md xl:text-md mb-[22.5px] lg:mb-[80px] font-acumin lg:w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <img class="image-mask4 rounded-2xl relative my-auto lg:top-[50px] lg:w-1/2 lg:right-[-10%] lg:absolute sm:right-0" src="assets/images/hero14.svg" alt="Cinque Terre">
+                        <p class="text-3md lg:text-5md xl:text-7md mb-9 font-playfair mb-[32px] lg:mb-[32px] my-auto lg:w-full">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut labore et dolore magna aliqua.”</p>
+                        <p class="text-6md lg:text-lg xl:text-3lg font-playfair mb-[16px] lg:mb-[24px]">374K</p>
+                        <p class="text-3sm lg:text-4sm xl:text-4sm mb-[28px] lg:mb-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div></div>
+                </div>
+                <div class="lg:grid lg:grid-cols-2 gap-x-4 relative">
+                    <div></div>
+                    <div class="px-4">
+                        <p class="font-playfair text-2sm uppercase">Success Stories</p>
+                        <p class="font-playfair text-2lg lg:text-xl xl:text-3xl  uppercase my-[8px] lg:my-[24px]">Corey’s Story</p>
+                        <p class="text-base lg:text-md xl:text-md mb-[22.5px] lg:mb-[80px] font-acumin lg:w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <img class="image-mask2 rounded-2xl relative my-auto lg:top-[50px] lg:w-1/2 lg:left-[-10%] lg:absolute sm:left-0" src="assets/images/hero12.svg" alt="Cinque Terre">
+                        <p class="text-3md lg:text-5md xl:text-7md mb-9 font-playfair mb-[32px] lg:mb-[32px] my-auto lg:w-full">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut labore et dolore magna aliqua.”</p>
+                        <p class="text-6md lg:text-lg xl:text-3lg font-playfair mb-[16px] lg:mb-[24px]">96%</p>
+                        <p class="text-3sm lg:text-4sm xl:text-4sm mb-[28px] lg:mb-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="lg:grid lg:grid-cols-2 gap-x-4 relative">
+                    <div class="px-4">
+                        <p class="font-playfair text-2sm uppercase">Success Stories</p>
+                        <p class="font-playfair text-2lg lg:text-xl xl:text-3xl  uppercase my-[8px] lg:my-[24px]">Marianne’s Story</p>
+                        <p class="text-base lg:text-md xl:text-md mb-[22.5px] lg:mb-[80px] font-acumin lg:w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <img class="image-mask3 rounded-2xl relative my-auto lg:top-[50px] lg:right-[-10%] lg:w-1/2 lg:absolute sm:right-0" src="assets/images/hero13.svg" alt="Cinque Terre">
+                        <p class="text-3md lg:text-5md xl:text-7md mb-9 font-playfair mb-[32px] lg:mb-[32px] my-auto lg:w-full">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut labore et dolore magna aliqua.”</p>
+                        <p class="text-6md lg:text-lg xl:text-3lg font-playfair mb-[16px] lg:mb-[24px]">374K</p>
+                        <p class="text-3sm lg:text-4sm xl:text-4sm mb-[28px] lg:mb-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+            <!-- xl screen response -->
+            <div class="hidden xl:block ">
+                <div class="lg:grid lg:grid-cols-2 gap-x-4 relative pb-[80px]">
+                    <div class="px-10 relative">
+                        <img class="rounded-lg w-[193px] absolute h-[145px] top-[260px]  object-cover transform-flip" src="assets/images/hero11.svg" alt="">
+                        <img class="absolute rounded-lg w-[308px] h-[308px] left-[160px] object-cover transform-flip" src="assets/images/hero11.svg" alt="">
+                    </div>
+                    <div class="px-10">
+                        <p class="font-playfair text-2sm uppercase">Success Stories</p>
+                        <p class="font-playfair text-2lg lg:text-xl xl:text-3xl  uppercase my-[31px]">Sarah’s Story</p>
+                        <p class="text-base lg:text-md xl:text-md font-acumin mb-[69px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div class="px-10">
+                        <p class="text-3md lg:text-5md xl:text-7md mb-9 font-playfair mb-[32px] my-auto mt-[189px]">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut labore et dolore magna aliqua.”</p>
+                        <p class="text-6md lg:text-lg xl:text-3lg font-playfair mb-[27px]">374K</p>
+                        <p class="text-3sm lg:text-4sm xl:text-4sm mb-[247px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="px-10 relative">
+                        <img class="image-mask4 rounded-2xl absolute left-[20%] " src="assets/images/hero14.svg" alt="Cinque Terre">
+                    </div>
+                </div>
+                <div class="lg:grid lg:grid-cols-2 gap-x-4 relative pb-[80px]">
+                    <div class="px-10">
+                        <p class="font-playfair text-2sm uppercase">Success Stories</p>
+                        <p class="font-playfair text-2lg lg:text-xl xl:text-3xl  uppercase my-[31px]">Corey’s Story</p>
+                        <p class="text-base lg:text-md xl:text-md font-acumin mb-[69px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div class="px-10 relative ">
+                        <img class="rounded-lg w-[170px] absolute h-[120px] top-0 right-[230px] object-cover" src="assets/images/hero12.svg" alt="">
+                        <img class="absolute rounded-lg w-[285px] h-[285px] right-0 top-[67px]  object-cover" src="assets/images/hero12.svg" alt="">
+                    </div>
+                    <div class="px-10 relative">
+                        <img class="image-mask2 rounded-2xl absolute right-[20%] " src="assets/images/hero12.svg" alt="Cinque Terre">
+                    </div>
+                    <div class="px-10  pb-[290px]">
+                        <p class="text-3md lg:text-5md xl:text-7md mb-9 font-playfair mb-[32px] my-auto mt-[189px]">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut labore et dolore magna aliqua.”</p>
+                        <p class="text-6md lg:text-lg xl:text-3lg font-playfair mb-[27px]">374K</p>
+                        <p class="text-3sm lg:text-4sm xl:text-4sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="lg:grid lg:grid-cols-2 gap-x-4 relative pb-[80px]">
+                    <div class="px-10 relative">
+                        <img class="rounded-lg w-[170px] absolute h-[120px] top-[260px]  object-cover transform-flip" src="assets/images/hero13.svg" alt="">
+                        <img class="absolute rounded-lg w-[285px] h-[285px] left-[170px] object-cover transform-flip" src="assets/images/hero13.svg" alt="">
+                    </div>
+                    <div class="px-10">
+                        <p class="font-playfair text-2sm uppercase">Success Stories</p>
+                        <p class="font-playfair text-2lg lg:text-xl xl:text-3xl  uppercase my-[31px]">Marianne’s Story</p>
+                        <p class="text-base lg:text-md xl:text-md font-acumin mb-[69px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div class="px-10">
+                        <p class="text-3md lg:text-5md xl:text-7md mb-9 font-playfair mb-[32px] my-auto mt-[189px]">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut labore et dolore magna aliqua.”</p>
+                        <p class="text-6md lg:text-lg xl:text-3lg font-playfair mb-[27px]">374K</p>
+                        <p class="text-3sm lg:text-4sm xl:text-4sm mb-[28px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="px-10 relative">
+                        <img class="image-mask3 rounded-2xl absolute left-[20%]" src="assets/images/hero13.svg" alt="Cinque Terre">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Client Success section end -->
+
+    <!-- Question section end -->
+    <section class="z-10 py-[140px] lg:py-[120px]  xl:py-[160px]  bg-green-light">
+        <div class="text-center mt-[32px] xl m-auto">
+            <div class="leading-none text-center text-3lg lg:text-4xl xl:text-5xl m-auto max-w-4xl lg:max-w-[860px] xl:max-w-[1098px]">
+                <p class="text-3lg lg:text-4xl xl:text-5xl  uppercase font-playfair text-blak">Frequently asked</p>
+                <span class="font-kalam uppercase font-bold">questions</span>
+            </div>
+            <div class="faq-accordion px-10 mt-[40px] lg:mt-[48px] xl:mt-[119px] lg:w-[610px] xl:w-[660px] mx-auto">
+                <div class="faq mb-4 py-4 border-t-2 border-solid border-[#00000033]">
+                    <button class="text-md lg:text-2md xl:text-4md  text- flex flex-wrap items-center  text-playfair relative w-full transition-all text-left" aria-label="button">
+                        <p class="font-playfair">Lorem ipsum dolor</p>
+                        <span class="plusminus absolute top-0 right-0 text-7md">+</span>
+                    </button>
+                    <div class="faq-content text-base lg:text-md xl:text-md overflow-hidden pt-[16px] lg:pt-[24px] xl:pt-[24px] text-left text-acumin hidden max-w-3xl lg:max-w-[530px] xl:max-w-[543px]">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+                <div class="faq mb-4 py-4 border-t-2 border-solid border-[#00000033]">
+                    <button class="text-md lg:text-2md xl:text-4md  text- flex flex-wrap items-center  text-playfair relative w-full transition-all text-left" aria-label="button">
+                        <p class="font-playfair">Lorem ipsum dolor</p>
+                        <span class="plusminus absolute top-0 right-0 text-7md">-</span>
+                    </button>
+                    <div class="faq-content text-base lg:text-md xl:text-md text-acumin overflow-hidden pt-[16px] lg:pt-[24px] xl:pt-[24px] text-left max-w-3xl lg:max-w-[530px] xl:max-w-[543px]">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+                <div class="faq mb-4 py-4 border-t-2 border-solid border-[#00000033]">
+                    <button class="text-md lg:text-2md xl:text-4md  text- flex flex-wrap items-center  text-playfair relative w-full transition-all text-left" aria-label="button">
+                        <p class="font-playfair">Lorem ipsum dolor</p>
+                        <span class="plusminus absolute top-0 right-0 text-7md">+</span>
+                    </button>
+                    <div class="faq-content text-base lg:text-md xl:text-md text-acumin overflow-hidden pt-[16px] lg:pt-[24px] xl:pt-[24px] text-left hidden max-w-3xl lg:max-w-[530px] xl:max-w-[543px]">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+                <div class="faq mb-4 py-4 border-t-2 border-solid border-[#00000033]">
+                    <button class="text-md lg:text-2md xl:text-4md  text- flex flex-wrap items-center  text-playfair relative w-full transition-all text-left" aria-label="button">
+                        <p class="font-playfair">Lorem ipsum dolor</p>
+                        <span class="plusminus absolute top-0 right-0 text-7md">+</span>
+                    </button>
+                    <div class="faq-content text-base lg:text-md xl:text-md text-acumin overflow-hidden pt-[16px] lg:pt-[24px] xl:pt-[24px] text-left hidden max-w-3xl lg:max-w-[530px] xl:max-w-[543px]">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+                <div class="faq mb-4 py-4 border-t-2 border-solid border-[#00000033]">
+                    <button class="text-md lg:text-2md xl:text-4md  text- flex flex-wrap items-center  text-playfair relative w-full transition-all text-left" aria-label="button">
+                        <p class="font-playfair">Lorem ipsum dolor</p>
+                        <span class="plusminus absolute top-0 right-0 text-7md">+</span>
+                    </button>
+                    <div class="faq-content text-base lg:text-md xl:text-md text-acumin overflow-hidden pt-[16px] lg:pt-[24px] xl:pt-[24px] text-left hidden max-w-3xl lg:max-w-[530px] xl:max-w-[543px]">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stand section start -->
+
+    <!-- Slide parallax start-->
+    <section class="special" data-scrollax-parent="true">
+        <div class="cover" data-scrollax="properties: { translateY: '30%' }" style="transform: translateZ(0px) translateY(29.919%);"><img src="assets/images/slide1.webp" class="object-cover"></div>
+        <div class="content">
+            <div class="text centralize">
+                <div data-scrollax="properties: { 'translateY': '150%', 'opacity': 1.5 }" style="opacity: 0; transform: translateZ(0px) translateY(149.595%);">
+                    <span class="font-playfair text-3md lg:text-5md xl:text-7md "> For the coffee shop owner who had the nerve to not give up despite a corporate chain opening up next door... </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="special" data-scrollax-parent="true">
+        <div class="cover" data-scrollax="properties: { translateY: '30%' }" style="transform: translateZ(0px) translateY(29.4332%);"><img src="assets/images/slide2.webp" class="object-cover"></div>
+        <div class="content">
+            <div class="text centralize">
+                <div data-scrollax="properties: { 'translateY': '150%', 'opacity': 1.5 }" style="opacity: 0; transform: translateZ(0px) translateY(147.166%);">
+                    <span class="font-playfair text-3md lg:text-5md xl:text-7md "> The artist who persisted despite doubts from friends and family... </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="special" data-scrollax-parent="true">
+        <div class="cover" data-scrollax="properties: { translateY: '30%' }" style="transform: translateZ(0px) translateY(30%);"><img src="assets/images/slide3.webp" class="object-cover"></div>
+        <div class="content">
+            <div class="text centralize">
+                <div data-scrollax="properties: { 'translateY': '150%', 'opacity': 1.5 }" style="opacity: 0; transform: translateZ(0px) translateY(150%);">
+                    <span class="font-playfair text-3md lg:text-5md xl:text-7md "> The mom and pops who overcame all odds and built a beautiful life for their children... </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="special" data-scrollax-parent="true">
+        <div class="cover" data-scrollax="properties: { translateY: '30%' }" style="transform: translateZ(0px) translateY(0%);"><img src="assets/images/slide4.webp" class="object-cover"></div>
+        <div class="content">
+            <div class="text centralize">
+                <div data-scrollax="properties: { 'translateY': '150%', 'opacity': 1.5 }" style="opacity: 1; transform: translateZ(0px) translateY(0%);">
+                    <span class="font-playfair text-3md lg:text-5md xl:text-7md "> For the folks who just didn’t fit in at corporate, saw things differently and knew they had more to offer the world... </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Slide parallax end -->
+
+
+
+
+
+    <!-- Stand section start -->
+    <section id="faq" class="pt-20 pb-8 z-10 py-[139px] xl:py-[407px] lg:py-[280px]  bg-green-dark relative">
+        <div class="leading-none text-center max-w-3xl lg:max-w-md xl:max-w-xl m-auto">
+            <p class="text-2lg lg:text-xl xl:text-3xl uppercase font-playfair text-white">we stand with you and for you</p>
+            <p class="font-acumin text-base lg:text-md xl:text-md mt-[24px] text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <img src="assets/images/small-shots-04.svg" class="absolute hidden lg:block rounded-xl xl:top-[335px] xl:w-[220px] xl:h-[293px] xl:left-[85px] lg:top-[264px] lg:left-[40px] lg:w-[162px] lg:h-[218px]" alt="">
+        <img src="assets/images/small-shots-01.svg" class="absolute hidden lg:block rounded-xl xl:top-[191px] xl:right-[117px] xl:w-[130px] xl:h-[97px] lg:top-[157px] lg:right-[64px] lg:w-[97px] lg:h-[64px]" alt="">
+        <img src="assets/images/small-shots-02.svg" class="absolute bottom-40 hidden lg:block rounded-xl xl:left-[304px] xl:bottom-[190px] xl:w-[130px] xl:h-[97px] lg:bottom-[156px] lg:left-[203px] lg:w-[97px] lg:h-[72px]" alt="">
+        <img src="assets/images/small-shots-03.svg" class="absolute bottom-1 hidden lg:block rounded-xl xl:right-[85px] xl:bottom-[371px] xl:h-[145px] xl:w-[193px] lg:right-[40px] lg:bottom-[291px] lg:w-[143px] lg:h-[108px]" alt="">
+    </section>
+    <!-- Stand section end -->
+
+
+    <!-- Get started section start -->
+
+    <section class="z-10 py-[104px]  bg-green-dark">
+        <div class="leading-none text-center max-w-4xl lg:max-w-lg xl:max-w-3xl mt-[32px] xl m-auto">
+            <p class="text-3lg lg:text-4xl xl:text-5xl  uppercase font-playfair text-white">Sign up to
+                <span class="font-kalam font-bold">Get started</span>
+            </p>
+            <p class="font-playfair text-md lg:text-2md xl:text-4md mt-[8px] mb-[32px]  text-white">Join hundreds of small businesses, artists and creatives who trust the VoyageDallas Content Program to take their brands to the next level.</p>
+            <a href="#" class="rounded-full bg-yellow hover:bg-yellow-hover py-[12px] px-[24px] uppercase text-sm font-acumin">
+                Sign Up
+            </a>
+        </div>
+    </section>
+    <!-- Get started section end -->
+
+    <!-- Link section end -->
+    <section class="z-10 py-[40px] lg:[py-64px] xl:py-[64px]  bg-green-dark">
+        <div class="leading-none text-center mt-[32px] xl m-auto">
+            <p class="text-md font-acumin text-white">Voyage</p>
+            <p class="font-acumin text-4sm  text-white mt-[8px]">Lorem ipsum dolor sit amet</p>
+            <p class="font-acumin text-4sm  text-white mt-[22px]">Link lorem 1</p>
+            <p class="font-acumin text-4sm  text-white">Link ipsum 2</p>
+            <p class="font-acumin text-4sm  text-white">Link lorem 3</p>
+            <p class="font-acumin text-4sm  text-white">Link ipsum 4</p>
+            <p class="font-acumin text-4sm mt-[52px] text-footer">2022 © Lorem ipsum dolor sit amet</p>
+        </div>
+    </section>
+    <!-- Link section end -->
+    <!-- <a id="scrollUp"
+        class="w-12 h-12 rounded-full bg-black text-white fixed right-5 bottom-16 flex flex-wrap items-center justify-center transition-all duration-300 z-10"
+        href="#" aria-label="scroll up"><i class="icon-arrow-up"></i></a> -->
+    <!-- Modals -->
+
+    <!-- modal-overlay start -->
+    <div class="modal-overlay hidden fixed inset-0 bg-black opacity-50 z-10"></div>
+    <!-- modal-overlay end -->
+    <!-- modal-mobile-menu start -->
+    <div id="modal-cart" class="modal fixed opacity-0 transition-opacity duration-300 ease-linear md:w-11/12 md:max-w-1000 hidden z-40 left-8 right-8 md:left-1/2 top-1/2 transform -translate-y-1/2 md:-translate-x-1/2 p-7 bg-white">
+
+
+
+        <div class="grid md:grid-cols-2 gap-4">
+            <div class="w-full">
+                <img class="w-full h-full" src="assets/images/products/lg/product1.webp" alt="product image" loading="lazy" width="432" height="480">
+            </div>
+            <div>
+                <button class="text-black text-lg absolute top-7 right-7 modal-close"><i class="icon-close"></i></button>
+
+                <h3 class="text-dark font-medium text-md lg:text-lg leading-none mb-4">Airpod product kiebd</h3>
+                <h5 class="font-bold text-md leading-none text-orange mb-8">
+                    $130.00
+                    <del class="font-normal text-base mr-1 inline-block">$110.00</del>
+                </h5>
+
+                <p class="mb-5 text-sm">All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary,</p>
+
+                <select class="w-full h-12 border border-solid border-gray-300  px-5 py-2 appearance-none" style="background: rgba(0,0,0,0) url('assets/images/icon/qcv-arrow-down.webp') no-repeat scroll right 20px center;">
+                    <option value="red">red</option>
+                    <option value="green">green</option>
+                    <option value="blue">blue</option>
+                </select>
+
+                <div class="flex flex-wrap items-center mt-8">
+                    <div class="flex count border border-solid border-gray-300 p-2 h-11">
+                        <button class="decrement flex-auto w-5 leading-none" aria-label="button">-</button>
+                        <input type="number" min="1" max="100" step="1" value="1" class="quantity__input flex-auto w-8 text-center focus:outline-none input-appearance-none">
+                        <button class="increment flex-auto w-5 leading-none" aria-label="button">+</button>
+                    </div>
+                    <div class="ml-2 sm:ml-8">
+                        <button class="bg-black leading-none py-4 px-5 md:px-8 font-normal text-sm h-11 text-white transition-all hover:bg-orange">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- modal-mobile-menu end -->
+
+
+    <!-- modal-overlay start -->
+    <div class="modal-overlay hidden fixed inset-0 bg-black opacity-50 z-30"></div>
+    <!-- modal-overlay end -->
+    <!-- modal-mobile-menu start -->
+    <div id="modal-addto-cart" class="modal fixed opacity-0 transition-opacity duration-300 ease-linear md:w-11/12 md:max-w-1000 hidden z-50 left-8 right-8 md:left-1/2 top-1/2 transform -translate-y-1/2 md:-translate-x-1/2 p-7 bg-white mx-auto">
+
+
+        <div class="md:flex md:flex-wrap">
+            <div class="md:mr-5 md:flex-30 mb-5 md:mb-0">
+                <img class="w-full" src="assets/images/products/lg/product1.webp" alt="product image" loading="lazy" width="432" height="480">
+            </div>
+            <div class="md:flex-auto">
+                <button class="text-black text-lg absolute top-7 right-7 modal-close"><i class="icon-close"></i></button>
+                <h3 class="text-dark font-medium text-md sm:text-lg mb-4">Airpod product kiebd</h3>
+                <p class="text-dark text-sm flex flex-wrap items-center"><i class="icon-check text-lg mr-5"></i> Added to cart successfully!</p>
+                <div class="mt-8">
+                    <a href="#" class="bg-black leading-none py-2 px-5 font-normal text-sm text-white transition-all hover:bg-orange mr-5">View Cart</a>
+                    <a href="#" class="bg-black leading-none py-2 px-5 font-normal text-sm text-white transition-all hover:bg-orange">Checkout</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- modal-mobile-menu end -->
+
+
+
+    <!-- JS Vendor, Plugins & Activation Script Files -->
+
+    <!-- Vendors JS -->
+    <script src="./assets/js/vendor/modernizr-3.11.7.min.js"></script>
+    <script src="./assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
+    <script src="./assets/js/plugins/flickity.pkgd.js"></script>
+    <script src="https://iprodev.github.io/Scrollax.js/assets/js/smoothscroll.js"></script>
+    <script src="https://iprodev.github.io/Scrollax.js/lib/scrollax.min.js"></script>
+
+
+    <!-- Plugins JS -->
+    <script src="./assets/js/plugins/swiper-bundle.min.js"></script>
+    <script src="./assets/js/plugins/popper.min.js"></script>
+    <script src="./assets/js/plugins/tippy-bundle.umd.min.js"></script>
+    <script src="./assets/js/plugins/jquery.magnific-popup.min.js"></script>
+    <script src="./assets/js/plugins/jquery.ajaxchimp.min.js"></script>
+
+    <script>
+        $('.mobile-href').click(() => {
+            $('.offcanvas-close').trigger('click')
+        })
+    </script>
+
+    <!-- Activation JS -->
+    <script src="./assets/js/main.js"></script>
+
+
+
+</body>
+
+</html>
